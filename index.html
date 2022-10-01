@@ -1,42 +1,162 @@
 <!DOCTYPE html>
 
 <html>
-    <title>Keith's Page</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Keith's Page</title>
 
+        <!-- Bootstrap CDN CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous">
+
+        <style>
+            /* .col {
+                border: 2px solid red;
+            } */
+        </style>
+    </head>
     <body>
-        <h1>Welcome to Keith Chan's Page</h1>
 
-        <img src="KeithChanYongKit_LowRes.jpg" alt="Profile Picture">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                    <ul class="navbar-nav navbar-light bg-success">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Student Life</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#"
+                                role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Interest
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Photography</a></li>
+                                <li><a class="dropdown-item" href="#">Community</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-        <p>Welcome to my page!</p>
-
-        <p>
-            Self-driven, highly motivated student and leader. Currently an
-            undergraduate student in SMU Information Systems
-        </p>
-        <p>
-            Actively participated in student council and infocomm club in
-            secondary school, pursuing interest in leadership, photography and
-            IT at the same time. During this time, was also active in social
-            events such as guest of RI Dialogue and Launch of Singapore SG50
-            Commemorative Notes Event 2015.
-        </p>
-
-        <p>
-            Currently holds a Word 2016 certificate and planning to take on more
-            certificates to gain new knowledge. Ready to constantly learn new
-            things and can be both a leader and a good team member.
-        </p>
-
-        <p>
-            During my free time, I step out of my house to explore a beautiful
-            city by taking photos. Street and landscape are some of the types of
-            photos that I take more often. Also, smart home automation have been
-            huge interest for me.
-        </p>
-    </body>
+        <div class="">
 
 
+            <div class="home text-center">
+                <div class="bg-light">
+                    <div class="container-fluid py-5">
+                        <img src="./assets/KeithChanYongKit_Circle.png" alt="Profile
+                            Picture" width="10%">
+                        <h1 class="display-5 fw-bold">Hi, I am Keith</h1>
+                        <p class="fs-4">Welcome to my website</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- About me -->
+
+            <div class="home">
+                <div class="bg-success text-light">
+                    <div class="container-fluid py-5">
+                        <div class="row">
+                            <div class="col"></div>
+                            <div class="col-6">
+                                <div class="row">
+                                    <div class="col">
+                                        <h1 class="text-left">About Me</h1>
+                                        <a href="https://www.linkedin.com/in/keithchanyongkit" target="_blank"><img src="./assets/linkedin.png" width="5%" alt="..."></a>
+                                        <a href="https://www.facebook.com/profile.php?id=100000100299657" target="_blank"><img src="./assets/facebook.png" width="5%" alt="..."></a>
+                                    </div>
+                                    <div class="col-8">
+
+                                        <p class="lead display-9">
+                                            Self-driven, highly motivated
+                                            student and leader. Currently an
+                                            undergraduate student in SMU
+                                            Information Systems
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col"></div>
+                        </div>
+
+                    </div>
+                </div>
 
 
-</html>
+
+
+                <p>Welcome to my page!</p>
+
+                <p>
+                    Actively participated in student council and Infocomm club
+                    in
+                    secondary school, pursuing interest in leadership,
+                    photography
+                    and
+                    IT at the same time. During this time, was also active in
+                    social
+                    events such as guest of RI Dialogue and Launch of Singapore
+                    SG50
+                    Commemorative Notes Event 2015.
+                </p>
+
+                <p>
+                    Currently holds a Word 2016 certificate and planning to take
+                    on
+                    more
+                    certificates to gain new knowledge. Ready to constantly
+                    learn
+                    new
+                    things and can be both a leader and a good team member.
+                </p>
+
+                <p>
+                    During my free time, I step out of my house to explore a
+                    beautiful
+                    city by taking photos. Street and landscape are some of the
+                    types of
+                    photos that I take more often. Also, smart home automation
+                    have
+                    been
+                    huge interest for me.
+                </p>
+
+            </div>
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+                crossorigin="anonymous"></script>
+        </body>
+
+
+
+
+
+    </html>
